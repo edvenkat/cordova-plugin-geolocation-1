@@ -142,8 +142,8 @@
         */
         return;
     }
-    //
-    else if (code == kCLAuthorizationStatusAuthorizedWhenInUse) { //iOS8+
+    //else
+    if (code == kCLAuthorizationStatusAuthorizedWhenInUse) { //iOS8+
         __highAccuracyEnabled = enableHighAccuracy;
         //
         if([[NSBundle mainBundle] objectForInfoDictionaryKey:@"NSLocationAlwaysUsageDescription"]) {
