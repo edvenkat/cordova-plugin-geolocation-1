@@ -142,7 +142,7 @@
         */
         return;
     }
-    //else
+    /*else
     if (code == kCLAuthorizationStatusAuthorizedWhenInUse) { //iOS8+
         __highAccuracyEnabled = enableHighAccuracy;
         //
@@ -150,7 +150,7 @@
             [self.locationManager  requestAlwaysAuthorization];
         }
     }
-    //
+    */
 #endif
 
     // Tell the location manager to start notifying us of location updates. We
